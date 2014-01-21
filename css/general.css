@@ -2,21 +2,23 @@
 
 html {
     font-family: Baskerville, serif;
+    color: #FFF
 }
 
 body {
-    background-color: #CCC;
+    background-color: #000;
 }
 
 h1 {
     font-family: Impact, sans-serif;
     font-size: 3rem; /* 1 rem = 16px */
-    font-weight: normal
+    font-weight: normal;
+    color: #FF00FF
 }
 
 p, li {
-    font-size: 1rem;
-    line-height: 1.5rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
 }
 
 h1 + p {
@@ -33,15 +35,11 @@ em {
 }
 
 hr {
-    border: solid 4px #F00;
-}
-
-ul {
-    background-color: #FFF;
+    border: solid 2px #FF00FF;
 }
 
 li {
-    color: #F00;
+    color: #FF00FF;
 }
 
 ol li:first-child {
